@@ -5,7 +5,7 @@
 =end
 
 def isogram(word)
-  !(word.downcase.split('').uniq.join.length != word.length)
+  (word.downcase.split('').uniq.join.length == word.length)
 end
 
 puts isogram 'moOse'
