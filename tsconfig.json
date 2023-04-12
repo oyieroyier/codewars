@@ -106,5 +106,5 @@
 		// "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
 		"skipLibCheck": true /* Skip type checking all .d.ts files. */
 	},
-	"include": ["src"]
+	"include": ["src", "12-04-2023/the_feast_of_many_beasts.ts"]
 }
