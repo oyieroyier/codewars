@@ -1,6 +1,10 @@
 # Codewars Katas by Bob Oyier
+> "A Kata a day keeps the impostor syndrome away."
+> --------------------------------
+> **Bob Oyier**
 
-Problems handled in either JavaScript(Typescript) or in Ruby language.
+
+Problems handled in either TypeScript or Ruby programming languages.
 
 
 ## Authors
