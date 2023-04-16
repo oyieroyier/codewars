@@ -13,7 +13,7 @@
 
 */
 
-// Submitter solution:
+// Submitted solution:
 
 function toNumberArray(stringarray: string[]): number[] {
 	return stringarray.map((e) => +e);
