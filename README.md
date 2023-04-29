@@ -5,6 +5,7 @@
 
 
 Problems handled in either TypeScript or Ruby programming languages.
+And a little bit of C-Sharp.
 
 
 ## Authors
