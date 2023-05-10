@@ -11,5 +11,5 @@
 =end
 
 def disemvowel(str)
-  str.delete('aeiouAEIOU')
+  str.delete("aeiouAEIOU")
 end

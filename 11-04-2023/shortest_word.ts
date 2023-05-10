@@ -6,10 +6,9 @@
 
 // Submitted solution
 export function findShort(s: string): number {
-	let count: number = s.length;
+  let count: number = s.length;
 
-	s.split(' ').map((e) => (e.length < count ? (count = e.length) : count));
+  s.split(" ").map((e) => (e.length < count ? (count = e.length) : count));
 
-	return count;
+  return count;
 }
-

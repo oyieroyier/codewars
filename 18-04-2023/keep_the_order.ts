@@ -20,5 +20,5 @@ keepOrder([1, 1, 2, 2, 2], 2) //=> 2
 */
 
 function keepOrder(ary: number[], val: number): number {
-	return [...ary, val].sort((a, b) => a - b).indexOf(val);
+  return [...ary, val].sort((a, b) => a - b).indexOf(val);
 }

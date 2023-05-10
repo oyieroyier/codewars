@@ -7,10 +7,10 @@ All values in the array will be integers. Return the good values in the order th
 */
 // Submitted solution
 export function noOdds(values: number[]): number[] {
-	return values.filter((num) => num % 2 === 0);
+  return values.filter((num) => num % 2 === 0);
 }
 
 // Other solution:
 export function noOdd(values: number[]): number[] {
-	return values.filter((i) => !(i % 2));
+  return values.filter((i) => !(i % 2));
 }

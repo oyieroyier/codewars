@@ -7,5 +7,5 @@
 */
 
 function largest(n: number, array: number[]): number[] {
-	return array.sort((a, b) => a - b).splice(array.length - n);
+  return array.sort((a, b) => a - b).splice(array.length - n);
 }

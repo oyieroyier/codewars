@@ -14,18 +14,18 @@
 # Submitted answer
 def generateHashtag(str)
   result = []
-  result << str.split(' ').map(&:capitalize)
-  if result.join(' ').length.positive? && result.join.length < 140
-    result.unshift('#').join('')
+  result << str.split(" ").map(&:capitalize)
+  if result.join(" ").length.positive? && result.join.length < 140
+    result.unshift("#").join("")
   else
     false
   end
 end
 
-p generateHashtag 'Hello there thanks for trying my Kata'
-p generateHashtag 'Hello     World'
-p generateHashtag 'code wars'
-p generateHashtag 'code' + ' ' * 140 + 'wars'
-p generateHashtag ' ' * 200
-p generateHashtag ''
-p generateHashtag 'Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong Cat'
+p generateHashtag "Hello there thanks for trying my Kata"
+p generateHashtag "Hello     World"
+p generateHashtag "code wars"
+p generateHashtag "code" + " " * 140 + "wars"
+p generateHashtag " " * 200
+p generateHashtag ""
+p generateHashtag "Looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong Cat"

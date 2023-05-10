@@ -14,11 +14,11 @@ For example:
 
 // Submitted solution
 function betweenExtremes(numbers: number[]): number {
-	const sorted = numbers.sort((a, b) => a - b);
-	return sorted[sorted.length - 1] - sorted[0];
+  const sorted = numbers.sort((a, b) => a - b);
+  return sorted[sorted.length - 1] - sorted[0];
 }
 
 // Other implementation
 function betweenExtreme(numbers) {
-	return Math.max(...numbers) - Math.min(...numbers);
+  return Math.max(...numbers) - Math.min(...numbers);
 }

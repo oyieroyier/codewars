@@ -9,14 +9,14 @@
 */
 
 function solution(number: number): number {
-	const result: number[] = [];
+  const result: number[] = [];
 
-	for (let i: number = 0; i < number; i++) {
-		if (i % 3 === 0 || i % 5 === 0) {
-			result.push(i);
-		}
-	}
-	return result.reduce((a, b) => a + b, 0);
+  for (let i: number = 0; i < number; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+      result.push(i);
+    }
+  }
+  return result.reduce((a, b) => a + b, 0);
 }
 
 console.log(solution(10));

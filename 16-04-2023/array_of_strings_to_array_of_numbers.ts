@@ -16,15 +16,15 @@
 // Submitted solution:
 
 function toNumberArray(stringarray: string[]): number[] {
-	return stringarray.map((e) => +e);
+  return stringarray.map((e) => +e);
 }
 
 // Other solutions:
 
 function toNumArray(stringarray: string[]): number[] {
-	return stringarray.map(parseFloat);
+  return stringarray.map(parseFloat);
 }
 
 function toNumberArr(stringarray: string[]): number[] {
-	return stringarray.map(Number);
+  return stringarray.map(Number);
 }

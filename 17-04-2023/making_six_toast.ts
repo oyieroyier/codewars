@@ -21,5 +21,5 @@ Good luck!
 */
 
 export function sixToast(num: number): number {
-	return Math.abs(num - 6);
+  return Math.abs(num - 6);
 }

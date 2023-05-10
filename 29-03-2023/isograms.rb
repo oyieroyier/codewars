@@ -5,10 +5,10 @@
 =end
 
 def isogram(word)
-  (word.downcase.split('').uniq.join.length == word.length)
+  (word.downcase.split("").uniq.join.length == word.length)
 end
 
-puts isogram 'moOse'
-puts isogram 'isogram'
-puts isogram 'anagram'
-puts isogram 'Betray'
+puts isogram "moOse"
+puts isogram "isogram"
+puts isogram "anagram"
+puts isogram "Betray"

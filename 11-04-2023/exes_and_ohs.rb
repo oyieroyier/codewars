@@ -14,5 +14,5 @@
 =end
 
 def XO(str)
-  str.downcase.split('').count('x') == str.downcase.split('').count('o')
+  str.downcase.split("").count("x") == str.downcase.split("").count("o")
 end

@@ -17,8 +17,8 @@ Examples
 
 def remove(s)
   s
-    .split(' ')
-    .map { |word| word.count('!') == 1 ? nil : word }
+    .split(" ")
+    .map { |word| word.count("!") == 1 ? nil : word }
     .compact
-    .join(' ')
+    .join(" ")
 end

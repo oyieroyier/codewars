@@ -10,5 +10,5 @@
 =end
 
 def invert_values(arr)
-	arr.map { |i| i * -1 }
+  arr.map { |i| i * -1 }
 end

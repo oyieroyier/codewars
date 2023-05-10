@@ -5,6 +5,5 @@ Just a simple sorting usage. Create a function that returns the elements of the 
 */
 
 export function sortMe(names: string[]): string[] {
-	return names.sort();
+  return names.sort();
 }
-

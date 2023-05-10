@@ -6,7 +6,7 @@
 =end
 
 def spin_words(string)
-  string.split(' ').map { |i| i.length < 5 ? i : i.reverse }.join(' ')
+  string.split(" ").map { |i| i.length < 5 ? i : i.reverse }.join(" ")
 end
 
-puts spin_words 'Stop Spinning My Words'
+puts spin_words "Stop Spinning My Words"

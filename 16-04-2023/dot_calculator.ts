@@ -30,38 +30,38 @@ Examples (Input => Output)
 // Submitted solution:
 
 function dotCalculator(equation: string): string {
-	const n = equation.split(' ');
-	let output = '';
-	if (n[1] === '+') {
-		return n[0] + n[2];
-	} else if (n[1] === '-') {
-		for (let i = 0; i < n[0].length - n[2].length; i++) {
-			output += '.';
-		}
-	} else if (n[1] === '//') {
-		for (let i = 0; i < Math.floor(n[0].length / n[2].length); i++) {
-			output += '.';
-		}
-	} else if (n[1] === '*') {
-		for (let i = 0; i < n[0].length * n[2].length; i++) {
-			output += '.';
-		}
-	}
-	return output;
+  const n = equation.split(" ");
+  let output = "";
+  if (n[1] === "+") {
+    return n[0] + n[2];
+  } else if (n[1] === "-") {
+    for (let i = 0; i < n[0].length - n[2].length; i++) {
+      output += ".";
+    }
+  } else if (n[1] === "//") {
+    for (let i = 0; i < Math.floor(n[0].length / n[2].length); i++) {
+      output += ".";
+    }
+  } else if (n[1] === "*") {
+    for (let i = 0; i < n[0].length * n[2].length; i++) {
+      output += ".";
+    }
+  }
+  return output;
 }
 
 // Alternative implementation:
 // Use the JS ".repeat" string method.
 function dotCalculato(equation: string): string {
-	const arr = equation.split(' ');
-	switch (arr[1]) {
-		case '+':
-			return '.'.repeat(arr[0].length + arr[2].length);
-		case '-':
-			return '.'.repeat(arr[0].length - arr[2].length);
-		case '*':
-			return '.'.repeat(arr[0].length * arr[2].length);
-		default:
-			return '.'.repeat(arr[0].length / arr[2].length);
-	}
+  const arr = equation.split(" ");
+  switch (arr[1]) {
+    case "+":
+      return ".".repeat(arr[0].length + arr[2].length);
+    case "-":
+      return ".".repeat(arr[0].length - arr[2].length);
+    case "*":
+      return ".".repeat(arr[0].length * arr[2].length);
+    default:
+      return ".".repeat(arr[0].length / arr[2].length);
+  }
 }

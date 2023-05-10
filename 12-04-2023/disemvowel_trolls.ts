@@ -13,7 +13,7 @@
 */
 
 function disemvowelTrolls(str: string): string {
-	return str.split(/[aeiouAEIOu]/).join("");
+  return str.split(/[aeiouAEIOu]/).join("");
 }
 
-console.log(disemvowelTrolls('This website is for losers LOL!'));
+console.log(disemvowelTrolls("This website is for losers LOL!"));

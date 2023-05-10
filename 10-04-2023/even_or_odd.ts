@@ -3,7 +3,7 @@
 */
 
 export function even_or_odd(n: number): string {
-	return n % 2 === 0 ? 'Even' : 'Odd';
+  return n % 2 === 0 ? "Even" : "Odd";
 }
 
 console.log(even_or_odd(5));

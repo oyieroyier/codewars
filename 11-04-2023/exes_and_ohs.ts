@@ -13,16 +13,16 @@
 
 // Submitted answer
 function XO(x: string): boolean {
-	const a = x
-		.toLowerCase()
-		.split('')
-		.filter((char) => char === 'x' || char === 'o')
-		.reduce((accumValue: { [key: string]: number }, currentValue: string) => {
-			accumValue[currentValue] = (accumValue[currentValue] || 0) + 1;
-			return accumValue;
-		}, {});
+  const a = x
+    .toLowerCase()
+    .split("")
+    .filter((char) => char === "x" || char === "o")
+    .reduce((accumValue: { [key: string]: number }, currentValue: string) => {
+      accumValue[currentValue] = (accumValue[currentValue] || 0) + 1;
+      return accumValue;
+    }, {});
 
-	return a.x === a.o;
+  return a.x === a.o;
 }
 
 // Other answer:
@@ -32,7 +32,7 @@ function XO(x: string): boolean {
 		🤯
 */
 function xo(str: string) {
-	return (
-		str.toLowerCase().split('x').length == str.toLowerCase().split('o').length
-	);
+  return (
+    str.toLowerCase().split("x").length == str.toLowerCase().split("o").length
+  );
 }

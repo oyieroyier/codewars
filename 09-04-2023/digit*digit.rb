@@ -16,5 +16,5 @@ def square_digits(num)
   y = []
 
   num.to_s.each_char { |i| y << (i.to_i**2) }
-  y.join('').to_i
+  y.join("").to_i
 end

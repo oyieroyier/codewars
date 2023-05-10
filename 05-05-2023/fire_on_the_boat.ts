@@ -10,7 +10,7 @@
 
 */
 
-export const removeFire = (str: string): string => str.replace(/Fire/gi, '~~');
+export const removeFire = (str: string): string => str.replace(/Fire/gi, "~~");
 
 // Alternative solution:
-export const removeFir = (str: string): string => str.replaceAll('Fire', '~~');
+export const removeFir = (str: string): string => str.replaceAll("Fire", "~~");

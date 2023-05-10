@@ -16,7 +16,7 @@ Example
 =end
 
 def alphabet_position(text)
-  text.downcase.gsub(/[^a-z]/, '').chars.map { |c| c.ord - 96 }.join(' ')
+  text.downcase.gsub(/[^a-z]/, "").chars.map { |c| c.ord - 96 }.join(" ")
 end
 
 p alphabet_position("The sunset sets at twelve o' clock.")

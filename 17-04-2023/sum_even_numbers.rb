@@ -26,5 +26,3 @@ end
 def sum_even_number(q)
   q.select { |i| (i % 2).zero? }.sum
 end
-
-

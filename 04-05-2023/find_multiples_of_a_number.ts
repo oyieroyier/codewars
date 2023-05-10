@@ -12,11 +12,11 @@
 */
 
 export function findMultiples(integer: number, limit: number): number[] {
-	let multiples: number[] = [];
-	for (let i: number = integer; i <= limit; i++) {
-		if (i % integer == -0) {
-			multiples.push(i);
-		}
-	}
-	return multiples;
+  let multiples: number[] = [];
+  for (let i: number = integer; i <= limit; i++) {
+    if (i % integer == -0) {
+      multiples.push(i);
+    }
+  }
+  return multiples;
 }

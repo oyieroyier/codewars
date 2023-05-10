@@ -14,22 +14,22 @@ Examples
 */
 // Initial submitted solution.
 function sumEvenNumbers(input: number[]): number {
-	return input.length
-		? input
-				.filter((number) => number % 2 === 0)
-				.reduce((sum, number) => sum + number)
-		: 0;
+  return input.length
+    ? input
+        .filter((number) => number % 2 === 0)
+        .reduce((sum, number) => sum + number)
+    : 0;
 }
 
 // Refactored to this:
 // Remember to set the initial value of the reduce method to 0.
 function sumEvenNumber(input: number[]): number {
-	return input
-		.filter((number) => number % 2 === 0)
-		.reduce((sum, number) => sum + number, 0);
+  return input
+    .filter((number) => number % 2 === 0)
+    .reduce((sum, number) => sum + number, 0);
 }
 
 // Better implementations:
 // Run the filter inside the reduce method.
 const sumEvenNumb = (a: number[]): number =>
-	a.reduce((r, e) => r + (e % 2 ? 0 : e), 0);
+  a.reduce((r, e) => r + (e % 2 ? 0 : e), 0);

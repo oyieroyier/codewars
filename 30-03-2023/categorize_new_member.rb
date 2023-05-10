@@ -17,7 +17,7 @@ Output
 
 # Submitted answer
 def open_or_senior(data)
-  data.map { |i| i[0] >= 55 && i[1] > 7 ? 'Senior' : 'Open' }
+  data.map { |i| i[0] >= 55 && i[1] > 7 ? "Senior" : "Open" }
 end
 
 puts open_or_senior [[37, 0], [60, 4], [56, 7]]
