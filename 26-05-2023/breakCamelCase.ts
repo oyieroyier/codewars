@@ -13,5 +13,3 @@ function solution(string: string) {
 }
 
 console.log(solution('camelCasing'));
-
-// solution('indexing Boo');
