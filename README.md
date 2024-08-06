@@ -4,7 +4,7 @@
 >
 > **Bob Oyier**
 
-Problems handled in either TypeScript or Ruby programming languages.
+Problems handled in either TypeScript, Ruby or Python programming languages.
 And a little bit of C-Sharp.
 
 ## Authors
